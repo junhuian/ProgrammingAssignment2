@@ -13,7 +13,7 @@ m <- NULL
 	setInverse <- function(inverse) m <<- inverse
 	getInverse <- function() m
 	list(set=set,get=get,
-		setInverse,getInverse=getInverse)
+		setInverse=setInverse,getInverse=getInverse)
 }
 
 
